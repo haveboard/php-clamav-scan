@@ -28,7 +28,7 @@
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
-
+namespace KissitPHPClamavScan;
 class Clamav {
     private $clamd_sock = "/var/run/clamav/clamd.sock";
     private $clamd_sock_len = 20000;

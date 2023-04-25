@@ -1,4 +1,7 @@
 <?php
+require __DIR__.'/../vendor/autoload.php';
+
+use KissitPHPClamavScan\Clamav;
 // A simple test file for php-clamav-scan library
 require 'Clamav.php';
 
